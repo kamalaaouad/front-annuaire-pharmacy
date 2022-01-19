@@ -1,0 +1,111 @@
+.from-home {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(52, 184, 192, 0.9) 0%, rgba(111, 81, 199, 0.9) 100%);
+    display: flex;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 19px;
+}
+
+.form-div-one {
+    width: 40%;
+    background-color: #cf656508;
+    overflow-y: auto;
+    padding-bottom: 2px;
+    margin-right: 2px;
+    justify-content: flex-start;
+}
+
+.form-div-tow {
+    width: 40%;
+    background-color: rgb(238 235 234 / 0%);
+    margin-left: 2px;
+}
+
+.row-form-div {
+    background-color: rgb(241 202 149 / 0%);
+    padding: 4px;
+    /* margin: 15px; */
+    margin-top: 21px;
+}
+
+.form__firstname {
+    width: 100%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+.form__firstname:focus {
+    border-color: rgb(3, 125, 247);
+    box-shadow: 0 0 8px 0 rgb(23, 27, 248);
+}
+
+.form__btn {
+    width: 20%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 5px;
+    position: absolute;
+    bottom: 12px;
+    right: 27px;
+}
+
+.form__btn button {
+    width: 80%;
+}
+
+.resize-grid {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.div-parent-info {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 10px;
+}
+
+.div-enfant-one,
+.div-enfant-three {
+    display: flex;
+    justify-content: space-around;
+}
+
+.div-enfant-tow {
+    display: flex;
+    justify-content: center;
+}
+
+.div-enfant-button {
+    float: right;
+    padding-right: 2rem;
+    position: absolute;
+    right: 0;
+    bottom: 12px;
+}
+
+.image_pharmacie {
+    height: 191px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.pharmacy-info lu {
+    font-size: medium;
+    font-family: cursive;
+}
+
+.pharmacy-info li {
+    margin: 10px;
+}

@@ -1,0 +1,36 @@
+.sidenav-container {
+    height: 100%;
+  }
+  
+  .sidenav {
+    width: 200px;
+  }
+  
+  .sidenav .mat-toolbar {
+    background: inherit;
+  }
+  .menu-nav-admin{
+    border-bottom: 2px solid #3f51b5;
+      background-color: #3f51b5 !important;
+      align-items: center;
+      justify-content: center;
+      COLOR: WHITE;
+      MARGIN: 0px;
+  }
+  .itm-list-menu{
+    color: aliceblue;
+  }
+  .mat-toolbar.mat-primary {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  .router-div-admin{
+    background-color: #c77e7e;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

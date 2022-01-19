@@ -1,0 +1,18 @@
+.list-item-pharmacy {
+    width: 100%;
+    height: 100%;
+}
+
+.mat-list-base .mat-list-item,
+.mat-list-base .mat-list-option {
+    display: block;
+    height: 41px;
+    -webkit-tap-highlight-color: transparent;
+    width: 89%;
+    padding: 0;
+    background-color: #3755b6 !important;
+    margin: 5px;
+    border-radius: 6px;
+    text-align: center;
+    color: beige;
+}

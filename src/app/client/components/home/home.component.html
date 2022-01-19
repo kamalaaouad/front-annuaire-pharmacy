@@ -1,0 +1,67 @@
+<mat-grid-list cols="4" rowHeight="100px">
+
+
+    <mat-grid-tile colspan="3" rowspan="3">
+
+        <form class="from-home">
+            <h1 style="position: absolute; right: 50%;">Trouver une Farmacie:</h1>
+            <div class="form-div-one">
+                <div class='row-form-div'>
+                    <input type="text" placeholder="First Name" class="form__firstname">
+                </div>
+                <div class='row-form-div'>
+                    <input type="text" placeholder="First Name" class="form__firstname">
+                </div>
+                <div class='row-form-div'>
+                    <input type="text" placeholder="First Name" class="form__firstname">
+                </div>
+
+            </div>
+            <div class="form-div-tow">
+                <div class='row-form-div'>
+                    <input type="text" placeholder="First Name" class="form__firstname">
+                </div>
+                <div class='row-form-div'>
+                    <input type="text" placeholder="First Name" class="form__firstname">
+                </div>
+                <div class='row-form-div'>
+                    <input type="text" placeholder="First Name" class="form__firstname">
+                </div>
+
+            </div>
+            <div class="form__btn">
+                <button mat-raised-button color="accent">Rechercher</button>
+            </div>
+        </form>
+    </mat-grid-tile>
+    <mat-grid-tile colspan="1" rowspan="1">
+        <div class="resize-grid">
+            <app-logo></app-logo>
+        </div>
+
+    </mat-grid-tile>
+    <mat-grid-tile colspan="1" rowspan="4">
+        <app-list-pharmacie style="width: 100%; height: 100%; overflow-y: auto;"></app-list-pharmacie>
+    </mat-grid-tile>
+    <mat-grid-tile colspan="3" rowspan="2" style="background-color:#f3eff0 ;    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);transition: 0.3s;
+    border-radius: 5px;">
+        <div class="div-parent-info">
+            <div class="image-pharmacy">
+                <img src="../../../assets/images/pharmacie.jpg" class="image_pharmacie" />
+            </div>
+            <div class="pharmacy-info" style="margin: 19px;">
+                <h1 style="color: #12278f;font-family: cursive;text-transform: uppercase;">Pharmacy TARYQ</h1>
+                <ul>
+                    <li> <strong>Adresse :</strong> : Marakkech 20000 , SIDI Youssef </li>
+                    <li> <strong>Email :</strong> : auto@test.try </li>
+                    <li> <strong>Status :</strong> : Ouverte</li>
+                    <li> <strong>Nom :</strong> : Pharmacy TARYQ </li>
+                </ul>
+            </div>
+            <div class="div-enfant-button">
+                <button mat-raised-button color="accent">Details</button>
+            </div>
+
+        </div>
+    </mat-grid-tile>
+</mat-grid-list>
